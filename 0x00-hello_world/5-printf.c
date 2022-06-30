@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
-* this program prints with proper grammar, but the outcome is a piece of art
+* main - print the string in the printf function
+* Description: using the main function
+* Return: 0
 */
 int main(void)
 {
