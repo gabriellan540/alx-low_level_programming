@@ -1,23 +1,24 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
-* rev_string - reverse string
-* @s: string
-* Return: void
+* print_rev - func that prints a string, in reverse, followed by a new line
+* @s: declaration of s and parameters
+* Return: 0
 */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
-int f, r;
-char c;
+int c;
 
-for (f = '\0'; s[f] != 0; f++)
+for (c = 0; s[c] != 0; c++)
 {
 }
-r = 0;
 
-for (f = f - 1; r < f; r++)
+for (c = c - 1; c >= 0; c--)
+[
 {
-c = s[f];
-s[f] = s[r];
-s[r] = c
+_putchar(s[c]);
+}
+
+_putchar('\n');
+}
