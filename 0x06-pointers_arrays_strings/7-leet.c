@@ -23,7 +23,7 @@ if (*(s + num) == lower[a] || *(s + num) == upper[a])
 *(s + num) = numbers[a];
 break;
 }
-  
+}
 num++;
 }
 return (s);
