@@ -19,7 +19,7 @@ dest[a] = src[a];
 
 for ( ; a < n; a++)
 {
-dest[a] = = '\0';
+dest[a] = '\0';
 }
 return (dest);
 }
