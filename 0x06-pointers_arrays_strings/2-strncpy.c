@@ -21,5 +21,6 @@ for ( ; a < n; a++)
 {
 dest[a] = '\0';
 }
+  
 return (dest);
 }
